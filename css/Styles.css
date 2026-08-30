@@ -1,0 +1,9 @@
+p{
+    background-color:rgb(147, 241, 16);
+    color: red;
+    border: 5px solid rgb(89, 3, 237);
+    padding: 10px;
+    text-align: justify;
+    font-weight: 800;
+    border-radius: 5px;
+}
