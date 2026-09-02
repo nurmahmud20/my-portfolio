@@ -1,0 +1,28 @@
+/* Custom scrollbar and animations */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b45ce;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e5eb;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1dbf73;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #1dbf73 0%, #38bdf8 50%, #818cf8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glow-effect {
+    box-shadow: 0 0 50px -10px rgba(29, 191, 115, 0.25);
+}
